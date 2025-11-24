@@ -1,0 +1,8 @@
+#FLYME|Core-Framework|liangdong@meizu.com|LogReport feature for tool of ap&cp log {@
+service logkit /system/bin/logkit
+ class late_start
+ user root
+ group system oem_2901 sdcard_rw sdcard_r media_rw everybody misc
+ socket logkit stream 666 system system
+ #disabled
+ #oneshot

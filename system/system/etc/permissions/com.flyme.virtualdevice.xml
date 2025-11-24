@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.flyme.virtualdevice">
+        <permission name="android.permission.FOREGROUND_SERVICE"/>
+        <permission name="com.meizu.permission.FLYME_LINK_UNION"/>
+        <permission name="flyme.permission.RECEIVE_CAMERA_STATE"/>
+    </privapp-permissions>
+</permissions>

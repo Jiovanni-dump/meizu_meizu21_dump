@@ -1,0 +1,5 @@
+service commtracer /system/bin/commtracer
+    class main
+    user root
+    group root net_admin readtracefs
+

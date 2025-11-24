@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.flyme.auto.launcherflow">
+        <permission name="android.permission.QUERY_ALL_PACKAGES" />
+        <permission name="android.permission.SET_ACTIVITY_WATCHER" />
+        <permission name="android.permission.LOCAL_MAC_ADDRESS" />
+    </privapp-permissions>
+</permissions>

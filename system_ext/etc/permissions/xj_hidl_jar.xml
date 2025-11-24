@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <library name="vendor.xingji.starCore-V1.0" file="/system_ext/framework/vendor.xingji.hal.starCore-V1.0-java.jar"/>
+    <library name="vendor.xingji.starCore-V1.1" file="/system_ext/framework/vendor.xingji.hal.starCore-V1.1-java.jar"/>
+</permissions>
+

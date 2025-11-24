@@ -1,0 +1,15 @@
+{
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"RetouchFactorType": 1
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/2_Hessian/effect.json",
+			"Index":0,
+			"Mode":"All"
+		}
+	]
+}

@@ -1,0 +1,152 @@
+{
+    "Metadata": {
+        "Version": 2,
+        "Created": "2023-08-12",
+        "Description": "Exported from RichTap Creator Pro"
+    },
+    "PatternList": [
+        {
+            "AbsoluteTime": 182,
+            "Pattern": [
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 0,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 50
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 126,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 50
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 264,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 50
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "transient",
+                        "RelativeTime": 392,
+                        "Parameters": {
+                            "Intensity": 100,
+                            "Frequency": 50
+                        },
+                        "Index": 0
+                    }
+                },
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "Duration": 834,
+                        "RelativeTime": 542,
+                        "Parameters": {
+                            "Intensity": 89,
+                            "Frequency": 30,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 1,
+                                    "Intensity": 0.19,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 54,
+                                    "Intensity": 0.19,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 55,
+                                    "Intensity": 0.86,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 135,
+                                    "Intensity": 0.86,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 137,
+                                    "Intensity": 0.55,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 225,
+                                    "Intensity": 0.55,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 226,
+                                    "Intensity": 0.85,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 287,
+                                    "Intensity": 0.85,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 288,
+                                    "Intensity": 0.54,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 380,
+                                    "Intensity": 0.54,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 381,
+                                    "Intensity": 0.83,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 614,
+                                    "Intensity": 0.82,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 615,
+                                    "Intensity": 0.53,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 668,
+                                    "Intensity": 0.18,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 834,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                }
+                            ]
+                        },
+                        "Index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

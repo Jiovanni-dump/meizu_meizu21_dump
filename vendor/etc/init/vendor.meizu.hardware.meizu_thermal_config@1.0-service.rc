@@ -1,0 +1,4 @@
+service vendor.default.meizu_thermal_config-1-0 /vendor/bin/hw/vendor.meizu.hardware.meizu_thermal_config@1.0-service
+    class late_start
+    user system
+    group system

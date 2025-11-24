@@ -1,0 +1,61 @@
+#Debug Settings
+logWarningMask=0x0
+logConfigMask=0x0
+logInfoMask=0x0
+logPerfInfoMask=0x0
+logEntryExitMask=0x0
+systemLogEnable=TRUE
+logVerboseMask=0x0
+logCoreCfgMask=0x0
+logDumpMask=0x0
+enableAsciiLogging=0
+logRequestMapping=FALSE
+chiLogInfoMask=0x0
+chiLogConfigMask=0x0
+chiLogCoreCfgMask=0x0
+chiLogVerboseMask=0x0
+chiLogWarningMask=0x0
+chiLogFullMask=0x0
+chiLogDumpMask=0x0
+traceGroupsEnable=0x10482
+enableDMEbasedMCTF=TRUE
+enableDMMbasedMCTF=FALSE
+
+#OIS Settings
+EISOISMode=1
+disableOIS=FALSE
+enableOISOptimization=FALSE
+
+#Flash Settings
+torchCurrent=75
+
+#Multi Camera Settings
+multiCameraExposureTimeMatch=TRUE
+multiCameraJPEG=1
+HMSMaxDelayedJobCount=10
+enableHwBinary=TRUE
+
+#Reprocess Settings
+minReprocessInputWidth=0x1FFF
+minReprocessInputHeight=0x1FFF
+sessionResponseTimePadding=100
+
+#Tuning Settings
+feature1=0
+AECGainThresholdForQCFA=2.0
+
+#Insensorzoom Settings
+enableInSensorZoom=FALSE
+enableSnapshotOnlyInSensorZoom=FALSE
+
+#PCR
+numPCRsBeforeStreamOn=1
+
+#Enable Custom ZoomRatio Video Tuningmode for M2461
+enableZoomRatioTuningMode=TRUE
+
+EnableSignal35Tombstone=FALSE
+
+enableChiMetadataSigAbort = FALSE
+
+enableArcYuvHDR=TRUE

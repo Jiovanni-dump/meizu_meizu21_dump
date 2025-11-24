@@ -1,0 +1,48 @@
+{
+    "Metadata": {
+        "Version": 2,
+        "Created": "2023-08-12",
+        "Description": "Exported from RichTap Creator Pro"
+    },
+    "PatternList": [
+        {
+            "AbsoluteTime": 91,
+            "Pattern": [
+                {
+                    "Event": {
+                        "Type": "continuous",
+                        "Duration": 396,
+                        "RelativeTime": 0,
+                        "Parameters": {
+                            "Intensity": 65,
+                            "Frequency": 82,
+                            "Curve": [
+                                {
+                                    "Time": 0,
+                                    "Intensity": 0,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 40,
+                                    "Intensity": 0.72,
+                                    "Frequency": 0
+                                },
+                                {
+                                    "Time": 191,
+                                    "Intensity": 0.32,
+                                    "Frequency": 32
+                                },
+                                {
+                                    "Time": 396,
+                                    "Intensity": 0,
+                                    "Frequency": 70
+                                }
+                            ]
+                        },
+                        "Index": 0
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * Copyright (C) meizu bsp
+-->
+<BoostConfigs>
+    <PerfBoost>
+
+        <!--Power Mode-->
+        <!--PowerModeBench boost-->
+        <!-- UCLAMP_BOOST -->
+        <!-- SCHED_WINDOW_TICKS_UPDATE -->
+        <!-- DISABLE_PASR, value-->
+        <!-- SCHED_MIN_TASK_UTIL_FOR_UCLAMP, value-->
+        <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ PRIME Core resource opcode, value-->
+        <!-- MPCTLV3_WALT_ADAPTIVE_HIGH_FREQ_TITANIUM resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
+        <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_TITANIUM resource opcode, value -->
+        <!-- GPU MIN_FREQUENCY resource opcode,value-->
+        <!--SCHDE_BOOST 1-->
+        <!--STORAGE_CLK_DISABLE 1-->
+        <!-- Type="", PowerModeBench boost -->
+        <Config Id="0x00005006" Enable="true" Target="pineapple" Desc="PowerModeBench"
+            Resources="0x40CAC000, 20, 0x40CA4000, 2, 0x42C1C000, 1, 0x40CFC000, 0, 0x4080C300, 2956800,0x40800000, 0xFFF,
+            0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40800300, 0xFFF, 0x40808300, 2956800, 0x41010300, 0, 0x42804000, 0,
+            0x40C00000, 0x1, 0x42C10000, 0x1, 0x41800000, 0x50, 0x43000000, 0x19, 0x43400000, 0x3480 "/>
+
+        <!--ANTUTUBENCH boost-->
+       <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ PRIME Core resource opcode, value-->
+        <!-- MPCTLV3_WALT_ADAPTIVE_HIGH_FREQ_TITANIUM resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
+        <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_TITANIUM resource opcode, value -->
+        <!-- GPU MIN_FREQUENCY resource opcode,value-->
+        <!-- SCHED_BOOST, FULL-->
+        <!-- STORAGE_CLK_DISABLE, true-->
+        <!-- CPUBW_MIN_FREQ, value-->
+        <!-- LLCBW_MIN_FREQ, value-->
+        <!-- MEMBW_MIN_FREQ, value-->
+        <!--MIGRATE UP 20 DOWN 10-->
+        <Config Id="0x00005007" Enable="true" Target="pineapple" Desc="com.antutu.ABenchMark"
+            Resources="0x4080C300, 2956800, 0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF, 0x40800300, 0xFFF, 0x40808300, 2956800,
+            0x41010300, 0, 0x42804000, 0, 0x40C00000, 0x2, 0x42C10000, 0x1, 0x41800000, 0x50, 0x43000000, 0x19,
+            0x43400000, 0x3480,  0x40CE0000, 0x003C0028,0x40CE0200, 0x0050003C, 0x40CE0300, 0x0050003C"/>
+
+        <!--ANTUTUBENCH 3D boost-->
+        <!-- CPUBOOST_MAX_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MAX_FREQ PRIME Core resource opcode, value-->
+        <!-- MPCTLV3_WALT_ADAPTIVE_HIGH_FREQ_TITANIUM resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
+        <!-- MPCTLV3_WALT_ADAPTIVE_LOW_FREQ_TITANIUM resource opcode, value -->
+        <!-- GPU MIN_FREQUENCY resource opcode,value-->
+        <!-- SCHED_BOOST, FULL-->
+        <!-- STORAGE_CLK_DISABLE, true-->
+        <!-- CPUBW_MIN_FREQ, value-->
+        <!-- LLCBW_MIN_FREQ, value-->
+        <!-- MEMBW_MIN_FREQ, value-->
+        <Config Id="0x00005007" Enable="true" Target="pineapple" Desc="com.antutu.benchmark.full"
+            Resources="0x4080C300, 2956800, 0x40800000, 0xFFF, 0x40800100, 0xFFF, 0x40800200, 0xFFF,  0x40800300, 0xFFF, 0x40808300, 2956800,
+            0x41010300, 0, 0x42804000, 0, 0x40C00000, 0x2, 0x42C10000, 0x1, 0x41800000, 0x50, 0x43000000, 0x19,
+            0x43400000, 0x3480,  0x40CE0000, 0x003C0028,0x40CE0200, 0x0050003C, 0x40CE0300, 0x0050003C "/>
+    </PerfBoost>
+</BoostConfigs>

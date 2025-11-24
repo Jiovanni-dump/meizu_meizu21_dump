@@ -1,0 +1,11 @@
+service vendor.camera.provider-ext /vendor/bin/hw/android.hardware.camera.provider-V1-external-service
+    interface aidl android.hardware.camera.provider.ICameraProvider/external/0
+    class hal
+    user cameraserver
+    group audio camera input drmrpc usb
+    ioprio rt 4
+    capabilities SYS_NICE
+    task_profiles CameraServiceCapacity MaxPerformance
+
+on property:init.svc.vendor.camera.provider-ext=running
+    exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules v4l2loopback devices=1 video_nr=66 exclusive_caps=1 card_label="ExternalWebCam" max_buffers=4

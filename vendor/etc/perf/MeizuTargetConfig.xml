@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ * Copyright (C) meizu bsp
+-->
+
+<MeizuTargetConfig>
+    <MeizuTarget>
+        <TargetInfo Target="pineapple" NumClusters="4" />
+    </MeizuTarget>
+    <SuperGame>
+         <PkgInfo PkgName="com.protopop.brightridge" Handle="true" />
+         <PkgInfo PkgName="com.miHoYo.Yuanshen" Handle="true" />
+         <PkgInfo PkgName="com.miHoYo.hkrpg" Handle="true" />
+    </SuperGame>
+
+    <TencentGame>
+         <PkgInfo PkgName="com.tencent.tmgp.sgame" Handle="true" />
+         <PkgInfo PkgName="com.tencent.tmgp.pubgmhd" Handle="true" />
+         <PkgInfo PkgName="com.tencent.lolm" Handle="true" />
+         <PkgInfo PkgName="com.tencent.ig" Handle="true" />
+         <PkgInfo PkgName="com.pubg.krmobile" Handle="true" />
+         <PkgInfo PkgName="com.vng.pubgmobile" Handle="true" />
+         <PkgInfo PkgName="com.rekoo.pubgm" Handle="true" />
+         <PkgInfo PkgName="com.tencent.igce" Handle="true" />
+         <PkgInfo PkgName="com.tenent.iglite" Handle="true" />
+         <PkgInfo PkgName="com.tenent.iglitece" Handle="true" />
+    </TencentGame>
+    
+    <HuanJi>
+        <PkgInfo PkgName="com.meizu.datamigration" Handle="true" />
+        <PkgInfo PkgName="com.hema.spottransfer" Handle="true" />
+        <PkgInfo PkgName="com.tencent.transfer" Handle="true" />
+        <PkgInfo PkgName="com.qqwj.clonedata" Handle="true" />
+        <PkgInfo PkgName="com.tencent.qqpim" Handle="true" />
+    </HuanJi>
+
+    <BenchMark>
+          <PkgInfo PkgName="com.glbenchmark.glbenchmark27" Handle="true" />
+          <PkgInfo PkgName="com.antutu.ABenchMark5" Handle="true" />
+          <PkgInfo PkgName="com.andromeda.androbench2" Handle="true" />
+          <PkgInfo PkgName="com.antutu.ABenchMark" Handle="true" />
+          <PkgInfo PkgName="com.antutu.benchmark.bench64" Handle="true" />
+          <PkgInfo PkgName="com.antutu.ABenchMark.GL2" Handle="true" />
+          <PkgInfo PkgName="com.appems.hawkeye" Handle="true" />
+          <PkgInfo PkgName="com.aurorasoftworks.quadrant.ui.standard" Handle="true" />
+          <PkgInfo PkgName="com.dianxinos.toolbox.benchmark" Handle="true" />
+          <PkgInfo PkgName="com.drolez.nbench" Handle="true" />
+          <PkgInfo PkgName="com.eembc.coremark" Handle="true" />
+          <PkgInfo PkgName="com.futuremark.dmandroid.application" Handle="true" />
+          <PkgInfo PkgName="com.ludashi.benchmark" Handle="true" />
+          <PkgInfo PkgName="com.primatelabs.geekbench" Handle="true" />
+          <PkgInfo PkgName="com.primatelabs.geekbench3" Handle="true" />
+          <PkgInfo PkgName="com.primatelabs.geekbench5" Handle="true" />
+          <PkgInfo PkgName="eu.chainfire.cfbench" Handle="true" />
+          <PkgInfo PkgName="org.zeroxlab.zeroxbenchmark" Handle="true" />
+          <PkgInfo PkgName="se.nena.nenamark1" Handle="true" />
+          <PkgInfo PkgName="com.greenecomputing.linpack" Handle="true" />
+          <PkgInfo PkgName="com.quicinc.vellamo" Handle="true" />
+          <PkgInfo PkgName="com.rightware.BasemarkX_Free" Handle="true" />
+          <PkgInfo PkgName="com.aurorasoftworks.quadrant.ui.advanced" Handle="true" />
+          <PkgInfo PkgName="com.futuremark.pcmark.android.benchmark" Handle="true" />
+          <PkgInfo PkgName="com.antutu.ABenchMark.GL2" Handle="true" />
+          <PkgInfo PkgName="com.antutu.ABenchMark.GL3" Handle="true" />
+          <PkgInfo PkgName="com.antutu.benchmark.full" Handle="true" />
+          <PkgInfo PkgName="net.kishonti.gfxbench.gl.v40000.corporate" Handle="true" />
+          <PkgInfo PkgName="org.benchmark.demo" Handle="true" />
+          <PkgInfo PkgName="com.ludashi.aibench" Handle="true" />
+          <PkgInfo PkgName="com.antutu.aibenchmark" Handle="true" />
+          <PkgInfo PkgName="com.antutu.ABenchMark.lite" Handle="true" />
+          <PkgInfo PkgName="com.antutu.benchmark.full.lite" Handle="true" />
+          <PkgInfo PkgName="com.ioncannon.cpuburn.gpugflops" Handle="true" />
+          <PkgInfo PkgName="com.ioncannon.cpuburn.gpugflops" Handle="true" />
+          <PkgInfo PkgName="com.ludashi.benchmark2" Handle="true" />
+          <PkgInfo PkgName="com.ludashi.vrbench" Handle="true" />
+    </BenchMark>
+</MeizuTargetConfig>

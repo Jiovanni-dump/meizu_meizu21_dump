@@ -1,0 +1,25 @@
+service scLogServ /vendor/bin/scLogServ
+    class main
+    disabled
+    socket scLogServ stream 660 system system
+    user system
+    group system root logd log
+    seclabel u:r:sclog_services:s0
+    task_profiles ServiceCapacityLow
+    oom_score_adjust -600
+
+on post-fs-data
+    mkdir /data/vendor/scLog/ 0750 system system
+
+on property:persist.vendor.sc.log.enable=true && property:ro.bootmode=unknown
+    start scLogServ
+
+on property:persist.vendor.sc.log.enable=false && property:ro.bootmode=unknown
+    stop scLogServ
+
+on property:vendor.sc.log.restart=true && property:ro.bootmode=unknown
+    restart scLogServ
+
+on property:sys.boot_completed=1 && property:ro.bootmode=unknown
+   setprop vendor.sc.log.boot_completed 1
+

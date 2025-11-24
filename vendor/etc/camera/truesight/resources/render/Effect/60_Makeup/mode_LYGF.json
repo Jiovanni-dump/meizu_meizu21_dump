@@ -1,0 +1,31 @@
+{
+	"##":"冷艳港风",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"EnvLightType": 1
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/5_ModeLYGF/effect_preview.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMAN/effect_preview.json",
+			"Index":1,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/5_ModeLYGF/effect_capture.json",
+			"Index":2,
+			"Mode":"Capture"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMAN/effect_capture.json",
+			"Index":3,
+			"Mode":"Capture"
+		}
+	]
+}

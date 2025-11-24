@@ -1,0 +1,29 @@
+{
+	"Type":"ParameterCategory",
+	"Parameters":
+	{
+		"##": "后置滑杆关联操作",
+		"UniqueSlider":[
+			{
+				"##Mode##": "模式",
+				"Mode": "Preview",
+				"##UniqueDefaultValue##": "统一flag默认值，可不配置",
+				"UniqueDefaultValue": 1.0,
+				"##ProcessFlag##": "只做处理的flag，可不配置",
+				"##FlagForward##": "转发flag",
+				"FlagForward":[1, 4, 8, 200, 201],
+				"##NonLinearUIData##": "外部设置值",
+				"NonLinearUIData": [[0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0]],
+				"##NonLinearValueData##": "非线性对应值",
+				"NonLinearValueData":[[0.0, 0.8, 0.8], [0.0, 0.3, 0.3], [0.0, 0.4, 0.4], [0.0, 0.3, 0.3], [0.0, 0.3, 0.3]]
+			},
+			{
+				"Mode": "Capture",
+				"UniqueDefaultValue": 1.0,
+				"FlagForward":[1, 4, 8, 200, 201],
+				"NonLinearUIData": [[0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0]],
+				"NonLinearValueData":[[0.0, 0.8, 0.8], [0.0, 0.3, 0.3], [0.0, 0.4, 0.4], [0.0, 0.3, 0.3], [0.0, 0.3, 0.3]]
+			}
+		]
+	}
+}

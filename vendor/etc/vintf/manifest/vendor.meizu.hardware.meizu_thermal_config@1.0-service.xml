@@ -1,0 +1,12 @@
+<manifest version="1.0" type="device">
+    <hal format="hidl">
+        <name>vendor.meizu.hardware.meizu_thermal_config</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IMeizuThermalConfig</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IMeizuThermalConfig/default</fqname>
+    </hal>
+</manifest>

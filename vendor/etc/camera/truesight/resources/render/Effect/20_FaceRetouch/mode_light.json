@@ -1,0 +1,21 @@
+{
+	"Type":"Effect",
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/0_Spotless/effect_light.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/1_SkinSmooth/effect_preview.json",
+			"Index":1,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/1_SkinSmooth/effect_capture.json",
+			"Index":2,
+			"Mode":"Capture"
+		}
+	]
+}

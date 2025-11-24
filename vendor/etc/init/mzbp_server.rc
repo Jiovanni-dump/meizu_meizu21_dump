@@ -1,0 +1,16 @@
+service mzbp_service /vendor/bin/mzbp_server
+    class main
+    disabled
+    user system
+    group system root logd log
+    seclabel u:r:mzbp_server:s0
+    task_profiles ServiceCapacityLow
+    oom_score_adjust -600
+
+on post-fs-data
+    mkdir /data/vendor/mzbp/ 0750 system system
+    chown system system /dev/mzbp_logger
+    chown system system /dev/mzbp_trigger
+
+on property:sys.boot_completed=1
+    start mzbp_service

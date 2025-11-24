@@ -1,0 +1,14 @@
+# qssi_64-user 14 UKQ1.230917.001 1724151849 release-keys
+- manufacturer: meizu
+- platform: pineapple
+- codename: meizu21
+- flavor: qssi_64-user
+- release: 14
+- id: UKQ1.230917.001
+- incremental: 1724151849
+- tags: release-keys
+- fingerprint: meizu/meizu_21/meizu21:14/UKQ1.230917.001/1724151849:user/release-keys
+- is_ab: true
+- brand: meizu
+- branch: qssi_64-user-14-UKQ1.230917.001-1724151849-release-keys
+- repo: meizu_meizu21_dump

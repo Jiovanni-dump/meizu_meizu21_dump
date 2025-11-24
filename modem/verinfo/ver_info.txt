@@ -1,0 +1,23 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "LPAIDSP.HT.1.0-00645.1-LANAI-1",
+        "aop": "AOP.HO.5.0-00557-LANAI_E-1",
+        "boot": "BOOT.MXF.2.1-01643.1-LANAI-1",
+        "btfm_hmt": "BTFW.HAMILTON.2.0.1-00257-PATCHZ-1",
+        "cdsp": "CDSP.HT.3.0-00673.1-LANAI-1",
+        "common": "Lanai.LA.1.0.r1-00725-STD.PROD-2",
+        "cpucp": "CPUCP.FW.1.0-00070-LANAI.EXT-1",
+        "cpuss_vm": "CPUSS.CPUSYS.VM.1.0-00012-LANAI.EXT-1",
+        "modem": "MPSS.DE.5.0.c3-00030-LANAI_GEN_PACK-1",
+        "spss": "SPSS.A1.1.9-00054-LANAI-1",
+        "tz": "TZ.XF.5.0-07512.2-LANAIAAAAANAZT-1",
+        "tz_apps": "TZ.APPS.1.0-01481-LANAIAAAAANAZT-2",
+        "wlan_hmt": "WLAN.HMT.2.0-01734-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1"
+    },
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Lanai.LA.1.0.r1-00725-STD.PROD-2",
+        "Product_Flavor": "asic",
+        "Time_Stamp": "2024-09-03 09:22:07"
+    },
+    "Version": "1.0"
+}

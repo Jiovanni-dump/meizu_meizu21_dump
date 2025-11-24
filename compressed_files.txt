@@ -1,0 +1,12 @@
+vendor/lib64/libface-sensetime.so.xz
+recovery.img.xz
+system_ext/priv-app/Settings/Settings.apk.xz
+product/app/Maps/Maps.apk.xz
+system_ext/priv-app/SystemUI/SystemUI.apk.xz
+system/system/priv-app/FlymeGallery/FlymeGallery.apk.xz
+product/app/Gmail2/Gmail2.apk.xz
+product/app/Photos/Photos.apk.xz
+product/priv-app/GmsCore/GmsCore.apk.xz
+product/app/TrichromeLibrary64/TrichromeLibrary64.apk.xz
+product/priv-app/Messages/Messages.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
